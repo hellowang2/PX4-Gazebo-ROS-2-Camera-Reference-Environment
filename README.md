@@ -1,8 +1,8 @@
 # PX4-Gazebo-ROS-2-Camera-Reference-Environment
 PX4 + Gazebo + ROS 2 Camera Reference Environment
-這是一個已經驗證過的 PX4 SITL + Gazebo Harmonic + ROS 2 Jazzy + Micro XRCE-DDS + X500 mono camera Docker 環境，提供專題成員作為模擬與 ROS 2 相機串接的參考。
-> 這不是完整的人員追蹤系統。  
-> 本環境目前只驗證到 **Gazebo 相機影像能進入 ROS 2**。YOLO / ByteTrack / PX4 tracking controller 請自行整合。
+這是一個 PX4 SITL + Gazebo Harmonic + ROS 2 Jazzy + Micro XRCE-DDS + X500 mono camera Docker 環境，為模擬與 ROS 2 相機串接的參考。
+  
+> 本環境驗證到 **Gazebo 相機影像能進入 ROS 2**
 已驗證功能
 PX4 SITL
 Gazebo Harmonic
@@ -18,7 +18,7 @@ resolution: 1280 x 960
 encoding: rgb8
 rate: 約 14–17 FPS
 ```
-實際 FPS 會依電腦效能而不同。
+實際 FPS 會依電腦效能而不同(反正我的很差)。
 ---
 1. 需求
 建議環境：
