@@ -25,7 +25,7 @@ encoding: rgb8
 rate: 約 14–17 FPS
 ```
 
-實際 FPS 會依電腦效能而不同。
+實際 FPS 會依電腦效能而不同(我僅有14~17)。
 
 ---
 
@@ -200,9 +200,9 @@ ros2 run rqt_image_view rqt_image_view
 
 ---
 
-## 8. 目前做到哪裡
+## 8. 目前
 
-目前已完成：
+目前完成：
 
 ```text
 PX4 SITL
@@ -220,7 +220,7 @@ ros_gz_image
 ROS 2 sensor_msgs/Image
 ```
 
-下一階段請自行整合，例如：
+可接續自行整合，例如：
 
 ```text
 ROS 2 camera image
